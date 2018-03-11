@@ -1,0 +1,24 @@
+{
+  "name": "ui-ux-tester-socket",
+  "version": "1.0.0",
+  "description": "Stream with Socket.io for UI/UX Tester",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usuarioJapa/ui-ux-tester-socket.git"
+  },
+  "author": "userjapa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/usuarioJapa/ui-ux-tester-socket/issues"
+  },
+  "homepage": "https://github.com/usuarioJapa/ui-ux-tester-socket#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "http": "^0.0.0",
+    "socket.io": "^2.0.4"
+  }
+}
