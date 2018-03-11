@@ -5,6 +5,6 @@ const io = require('socket.io')(http)
 const connection = require('./src/socket')
 connection(io)
 
-http.listen(8000, () => {
-  console.log('Running at port 8000')
+http.listen(5000, () => {
+  console.log('Running at port 5000')
 })
